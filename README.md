@@ -1,4 +1,7 @@
-<script>try { document.querySelector("h1").remove(); } catch(e) { console.log("Failed to remove h1 tag:", e); }</script>
+<script>
+  try { document.querySelector("h1").remove(); } catch(e) { console.log("Failed to remove h1 tag:", e); }
+  try { document.title = document.title.replace('theharringtons.github.io', 'harrington.mn'); } catch(e) { console.log("Failed to replace title:", e); }
+</script>
 ## Hi there!
 You've found a pointer to some fine developers in Minneapolis, MN. Let's dereference!
 
