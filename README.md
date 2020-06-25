@@ -1,3 +1,4 @@
+<script>try { document.querySelector("h1").remove(); } catch(e) { console.log("Failed to remove h1 tag:", e); }</script>
 ## Hi there!
 You've found a pointer to some fine developers in Minneapolis, MN. Let's dereference!
 
